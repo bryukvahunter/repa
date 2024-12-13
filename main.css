@@ -1,0 +1,457 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+@import "style.css";
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    background-color: #07203F;
+    border-bottom: 1px solid white;
+    position: fixed;
+}
+
+
+footer {
+    background-color: #07203F;
+    color: white;
+}
+
+section {
+    border-bottom: 1px solid white;
+}
+
+.container {
+    display: flex;
+    width: 1170px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px; 
+    padding-right: 16px;
+}
+
+.backgr-color {
+    background-color: #07203F;
+}
+
+.backgr-color2 {
+    background-color: rgba(234, 222, 212, 1);
+}
+
+.add-options-head {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    justify-content: space-between;
+}
+
+.block1-head {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.88px;
+}
+
+.block2-head {
+    display: flex;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    gap: 40px;
+}
+
+.color-white {
+    color: white;
+}
+
+.nobullet {
+    list-style-type: none;
+}
+
+.add-options-section1 {
+    padding-top: 130px;
+}
+
+.size-img {
+    width: 516px;
+    height: 516px;
+    border-radius: 50%;
+    margin-right: 135px;
+    margin-left: 40px;
+    margin-top: 135px;
+    margin-bottom: 135px;
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+.block1-section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content:center;
+    gap: 70px;
+}
+
+.h1-mini-box {
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.02px;
+}
+
+.p-mini-box {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42.19px;
+}
+
+.baton {
+    width: 605px;
+    height: 106px;
+    border-radius: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+}
+
+.add-options-section2 {
+    flex-direction: column;
+    align-items: center; 
+}
+
+.img-background {
+    background-image: url("https://kartinki.pics/uploads/posts/2021-03/1616044567_33-p-fon-shrek-36.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.p-block {
+    display: inline-block;
+    width: 1050px;
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 88px;
+    color: rgb(132, 210, 232);
+    margin-top: 135px;
+    margin-bottom: 70px;
+}
+
+.three-blocks-row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.mini-blocks {
+    width: 350px;
+    height: 350px;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.02px;
+    color: rgb(255, 255, 255);
+    background-color:#07203F;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.HTML-block {
+    position: relative;
+    width: 100%;
+    height: 65%;
+    margin-bottom: 20px;
+    
+}
+.HTML-block-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.CSS-block {
+    position: relative;
+    width: 100%;
+    height: 65%;
+    margin-bottom: 20px;
+}
+
+.CSS-block-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.JS-block {
+    position: relative;
+    width: 100%;
+    height: 65%;
+    margin-bottom: 20px;
+}
+.JS-block-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-three-section {
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-position-and-size2 {
+    font-family: Montserrat;
+    font-size: 82px;
+    font-weight: 800;
+    line-height: 88px;
+    color: rgb(255, 255, 255);
+    padding-top: 135px;
+    padding-bottom: 70px;
+}
+
+.three-blocks-column {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-bottom: 150px;
+}
+
+.size-text1 {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    color: rgb(255, 255, 255);
+}
+
+.size-text2 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    color: rgb(255, 255, 255);
+}
+
+.text-blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 540px;
+    height: 366px;
+}
+
+.block-row {
+    display: flex;
+}
+
+.li-reverse {
+    flex-direction: row-reverse;
+}
+
+
+.img-block1-section3 {
+    position: relative;
+    width: 540px;
+    height: 366px;
+}
+
+.img1-section3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-block2-section3 {
+    position: relative;
+    width: 540px;
+    height: 366px;
+}
+
+.img2-section3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-block3-section3 {
+    position: relative;
+    width: 540px;
+    height: 366px;
+}
+
+.img3-section3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-fourth-section {
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 750px;
+    height: 665px;
+    background-color:rgb(255, 255, 255) ;
+    margin: 70px;
+    margin-bottom: 150px;
+}
+
+.inputs {
+    width: 630px;
+    height: 100px;
+    background-color: rgba(234, 222, 212, 0.35);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 20px;
+}
+
+.baton-size {
+    width: 266px;
+    height: 68px;
+    background-color: rgba(234, 222, 212, 0.8);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+.lable {
+    display: flex;
+    width: 630px;
+    justify-content: space-between;
+}
+
+.text-section-3 {
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 88px;
+    margin-top: 135px;
+}
+
+.container-fifth-section {
+    flex-direction: column;
+    align-items: center; 
+}
+
+.img-background2 {
+    background-image: url("https://images.wallpaperscraft.ru/image/single/fon_piatna_temnyj_91678_1920x1080.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.three-blocks-row-2 {
+    display: flex;
+    width: 100%;
+    /* align-items: center;
+    justify-content: center; */
+    /* padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    margin-bottom: 60px; */
+    padding-bottom: 181px;
+    gap: 60px;
+}
+
+.title-block {
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 88px;
+    color: rgb(11, 55, 67);
+    padding-top: 135px;
+    padding-bottom: 65px;
+    /* margin-top: 65px; */
+}
+
+.mini-block-size-2 {
+    width: 350px;
+    height: 350px;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58.02px;
+    color: rgb(255, 255, 255);
+    background-color:#07203F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.link-name-block {
+    padding-top: 25px;
+}
+
+.baton1-2 {
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    width: 300px;
+    height: 70px;
+    margin-top: 25px;
+}
+
+.link1-2 {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 49px;
+}
+
+.add-options-footer {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    justify-content: space-between;
+}
+
+.block1-footer {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.88px;
+}
+
+.block2-footer {
+    display: flex;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    gap: 40px;
+}
+
